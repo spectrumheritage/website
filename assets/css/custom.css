@@ -1,1 +1,18 @@
 /* Add here all your css styles (customizations) */
+.interactive-slider-v2.img-digital-heritage {
+  background: url(../img/sliders/virtual_reconstruction.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.interactive-slider-v2.img-conservation {
+  background: url(../img/sliders/conservation_web.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.interactive-slider-v2.img-training {
+  background: url(../img/sliders/training.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
