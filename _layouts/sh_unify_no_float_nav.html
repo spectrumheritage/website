@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  {% include layout/header.html %}
+</head>
+
+<body class="header-fixed header-fixed-space-default">
+	<div class="wrapper">
+    {% include layout/navigation_no_float.html %}
+    {{ content }}
+	</div><!--/wrapper-->
+  {% include layout/footer.html %}
+  {% include layout/switcher.html %}
+  {% include layout/javascript_loader.html %}
+</body>
+</html>

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'spectrum_heritage';
+  src:  url('../fonts/spectrum_heritage.eot?xd3kde');
+  src:  url('../fonts/spectrum_heritage.eot?xd3kde#iefix') format('embedded-opentype'),
+    url('../fonts/spectrum_heritage.ttf?xd3kde') format('truetype'),
+    url('../fonts/spectrum_heritage.woff?xd3kde') format('woff'),
+    url('../fonts/spectrum_heritage.svg?xd3kde#spectrum_heritage') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'spectrum_heritage' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sh_3dprinting:before {
+  content: "\e900";
+}
+.icon-sh_archaeology:before {
+  content: "\e901";
+}
+.icon-sh_conservation:before {
+  content: "\e902";
+}
+.icon-sh_drone:before {
+  content: "\e903";
+}
+.icon-sh_laserscanning:before {
+  content: "\e904";
+}
+.icon-sh_metal:before {
+  content: "\e905";
+}
+.icon-sh_multispectral:before {
+  content: "\e906";
+}
+.icon-sh_painting:before {
+  content: "\e907";
+}
+.icon-sh_photogrammetry:before {
+  content: "\e908";
+}
+.icon-sh_rti:before {
+  content: "\e909";
+}
+.icon-sh_stainedglass:before {
+  content: "\e90a";
+}
+.icon-sh_stone:before {
+  content: "\e90b";
+}
+.icon-sh_virtualreality:before {
+  content: "\e90c";
+}
+.icon-sh_virtualreconstruction:before {
+  content: "\e90d";
+}
+.icon-sh_wood:before {
+  content: "\e90e";
+}

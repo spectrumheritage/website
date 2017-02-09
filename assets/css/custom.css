@@ -1,4 +1,6 @@
 /* Add here all your css styles (customizations) */
+@import url(sh_font.css);
+
 .interactive-slider-v2.img-digital-heritage {
   background: url(../img/sliders/virtual_reconstruction.jpg) no-repeat;
   background-size: cover;
@@ -15,4 +17,85 @@
   background: url(../img/sliders/training.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.bg-image-digital-heritage {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  position: relative;
+  background: url(../img/sliders/virtual_reconstruction.jpg) repeat fixed;
+  background-size: cover;
+}
+
+.bg-image-digital-heritage:before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+}
+
+.bg-image-conservation {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  position: relative;
+  background: url(../img/sliders/conservation_web.jpg) repeat fixed;
+  background-size: cover;
+}
+
+.bg-image-conservation:before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+}
+
+.parallaxBg h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 80px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .parallaxBg h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+}
+
+.icon-block {
+  display:block;
+}
+
+.services h1 {
+  display: block;
+  color: #000;
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 80px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.services i {
+  padding-right: 1em;
+}
+
+.services-icons i {
+  font-size: 7em;
+}
+
+.services-icons h1 {
+  margin-top: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
