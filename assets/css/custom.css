@@ -108,6 +108,10 @@
   padding-right: 1em;
 }
 
+.services-icons {
+  margin-bottom: 50px;
+}
+
 .services-icons i {
   font-size: 7em;
 }
