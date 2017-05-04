@@ -265,9 +265,17 @@ var App = function () {
 
 		// Parallax Backgrounds
 		initParallaxBg: function () {
-			jQuery(window).load(function() {
-				jQuery('.parallaxBg').parallax("50%", 0.2);
-				jQuery('.parallaxBg1').parallax("50%", 0.4);
+			jQuery(window).stellar({
+			    horizontalScrolling: false,
+			    responsive:true,
+			    verticalOffset: 0,
+			    horizontalOffset: 0
+			    /*,
+			    scrollProperty: 'scroll',
+			    parallaxElements: false,
+			    horizontalScrolling: false,
+			    horizontalOffset: 0,
+			    verticalOffset: 0*/
 			});
 		},
 
