@@ -1,6 +1,9 @@
 require 'rack/jekyll'
-run Rack::Jekyll.new
+require 'yaml'
 
 use Rack::Auth::Basic, "Restricted Area" do |username, password|
-  [username, password] == ['admin', 'admin']
+  # [username, password] == [ENV['AUTH_USERNAME'], ENV['AUTH_PASSWORD']]
+  [username, password] == ['admin','admin']
 end
+
+run Rack::Jekyll.new
