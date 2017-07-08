@@ -144,3 +144,7 @@
 
 /* END PARALLAX STUFF
 ================================================== */
+
+.justified {
+  text-align: justify;
+}
