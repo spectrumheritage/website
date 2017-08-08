@@ -166,3 +166,11 @@
 .overflow-h li {
   font-size: 1.2em;
 }
+
+.service-block-default {
+	border: none !important;
+}
+
+.service-block-default:hover {
+	box-shadow: 0 0 0px white !important;
+}
