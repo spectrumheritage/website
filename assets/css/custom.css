@@ -148,3 +148,21 @@
 .justified {
   text-align: justify;
 }
+
+.title-box-v2 h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.title-box-v2 p {
+	font-size: 1.2em;
+}
+
+.overflow-h h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.overflow-h li {
+  font-size: 1.2em;
+}
