@@ -6,3 +6,4 @@ gems: ['kramdown', 'jekyll-sitemap']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
 plugins:
   - jekyll-sitemap
+  - kramdown
