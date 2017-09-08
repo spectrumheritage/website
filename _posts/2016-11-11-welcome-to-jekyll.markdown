@@ -1,5 +1,6 @@
 ---
 layout: post
+sitemap: false
 title:  "Welcome to Jekyll!"
 date:   2016-11-11 22:25:31
 categories: jekyll update

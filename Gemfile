@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.4.0'
-gem 'jekyll', '3.4.0'
+gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll', '~> 3.5'
+gem 'jekyll-sitemap'
 gem 'kramdown', '1.13.2'
 gem 'rack-jekyll', '0.5.0'
 gem 'rake', '12.0.0'
