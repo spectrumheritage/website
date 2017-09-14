@@ -174,3 +174,8 @@
 .service-block-default:hover {
 	box-shadow: 0 0 0px white !important;
 }
+
+.no-indent {
+  list-style-position: inside;
+  padding-left:0;
+}
