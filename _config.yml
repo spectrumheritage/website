@@ -2,8 +2,8 @@ name: Spectrum Heritage
 
 # Build settings
 markdown: kramdown
-gems: ['kramdown', 'jekyll-sitemap']
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', 'README.md', 'LICENSE']
 plugins:
   - jekyll-sitemap
   - kramdown
+

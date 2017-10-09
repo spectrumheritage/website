@@ -1,9 +1,9 @@
 ---
 layout: post
-sitemap: false
-title:  "Welcome to Jekyll!"
-date:   2016-11-11 22:25:31
-categories: jekyll update
+sitemap: true
+title:  "Spectrum Heritage Turns One!"
+date:   2017-09-21 16:20:31
+categories: company-life updates
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
